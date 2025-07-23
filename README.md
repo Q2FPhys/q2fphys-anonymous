@@ -1,5 +1,7 @@
-We implemented our framework using the [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox), and incorporated [RhythmMamba](https://github.com/zizheng-guo/RhythmMamba) as a baseline model.
+We implemented our framework using the [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) [1], and incorporated [RhythmMamba](https://github.com/zizheng-guo/RhythmMamba) [2] as a baseline model.
+
 
 ## References
 [1] Liu, Xin, et al. "rppg-toolbox: Deep remote ppg toolbox." *Advances in Neural Information Processing Systems*, vol. 36, 2024.
+
 [2] Zou, Bochao, et al. "Rhythmmamba: Fast remote physiological measurement with arbitrary length videos." *arXiv preprint* arXiv:2404.06483, 2024.
