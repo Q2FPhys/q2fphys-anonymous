@@ -27,7 +27,8 @@ python main.py --config_file ./configs/infer_configs/MMPD_MMPD_Q2FPhys.yaml
 
 
 ## 🎓 Acknowledgement
-Our framework was implemented based on the [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) [1].
+This work builds upon the [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) [1].  
+We sincerely thank the authors for providing this valuable resource to the community.
 
 
 
