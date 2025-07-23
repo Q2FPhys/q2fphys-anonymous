@@ -1,3 +1,8 @@
+Q2F-Phys: A Label-Quantized Coarse-to-Fine Framework for Robust and Efficient Physiological Measurement
+
+
+
+## 🎓 Acknowledgement
 Our framework was implemented based on the [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) [1], and additionally incorporates [RhythmMamba](https://github.com/zizheng-guo/RhythmMamba) [2] as a baseline model for comparison.
 
 
