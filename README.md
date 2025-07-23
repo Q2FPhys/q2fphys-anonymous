@@ -1,4 +1,4 @@
-## 🧠 Overview of Q2F-Phys
+## Overview of Q2F-Phys
 Q2F-Phys: A Label-Quantized Coarse-to-Fine Framework for Robust and Efficient Physiological Measurement
 <p align="center">
   <img src="assets/figures/Overview_1.jpg" alt="Framework Overview" width="800"/>
