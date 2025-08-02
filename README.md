@@ -9,12 +9,27 @@ Q2F-Phys: A Label-Quantized Coarse-to-Fine Framework for Robust and Efficient Ph
 bash setup.sh
 ```
 
-
 ## 🖥️ Testing with Pre-trained Models
-Please refer to the configuration files located in `./configs/infer_configs`
-For instance, to run the pre-trained model for intra-dataset evaluation on MMPD, execute:
+Please refer to the configuration files located in `./configs/infer_configs`.
+
+### Intra-Dataset Evaluation (Example)
+To run the pre-trained model for **intra-dataset** evaluation (i.e., training and testing on the same dataset), you can use the following example:
+- **MMPD → MMPD**:
 ```bash
 python main.py --config_file ./configs/infer_configs/MMPD_MMPD_Q2FPhys.yaml
+```
+
+### Cross-Dataset Evaluation (Examples)
+To run the pre-trained model for **cross-dataset** evaluation (i.e., training and testing on different datasets), you can refer to the following examples:
+
+- **PURE → UBFC**:
+```bash
+python main.py --config_file ./configs/infer_configs/PURE_UBFC_Q2FPhys.yaml
+```
+
+- **UBFC → PURE**:
+```bash
+python main.py --config_file ./configs/infer_configs/UBFC_PURE_Q2FPhys.yaml
 ```
 
 
