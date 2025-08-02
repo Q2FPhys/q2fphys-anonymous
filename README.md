@@ -58,7 +58,7 @@ python main.py --config_file ./configs/infer_configs/UBFC_PURE_Q2FPhys.yaml
 
 
 ## 🧮 Computing Model Complexity
-To calculate the model's number of parameters, MACs (multiply–accumulate operations), and throughput:
+To calculate the model's number of parameters, multiply–accumulate operations (MACs), and throughput:
 ```
 python model_Para_MACs_Thro.py
 ```
