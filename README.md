@@ -2,7 +2,7 @@
 (The code will be released soon.)
 Q2F-Phys: A Label-Quantized Coarse-to-Fine Framework for Robust and Efficient Physiological Measurement
 <p align="center">
-  <img src="assets/figures/Overview_1.jpg" alt="Framework Overview" width="800"/>
+  <img src="assets/figures/Overview.png" alt="Framework Overview" width="800"/>
 </p>
 
 ## ⚙️ Setup
