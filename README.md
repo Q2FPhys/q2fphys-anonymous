@@ -9,6 +9,8 @@ Q2F-Phys: A Label-Quantized Coarse-to-Fine Framework for Robust and Efficient Ph
 bash setup.sh
 ```
 
+
+
 ## 📁 Datasets
 To use Q2F-Phys, it is necessary to prepare appropriate benchmark datasets.  
 Please refer to the following publications for details on each dataset.
@@ -26,11 +28,14 @@ Please refer to the following publications for details on each dataset.
     *"Non-contact Video-based Pulse Rate Measurement on a Mobile Service Robot"*,  
     Proc. IEEE Int. Symposium on Robot and Human Interactive Communication (RO-MAN), 2014.
 
+
+
 ## 🖥️ Testing with Pre-trained Models
 Please refer to the configuration files located in `./configs/infer_configs`.
 
 ### Intra-Dataset Evaluation (Example)
 To run the pre-trained model for **intra-dataset** evaluation (i.e., training and testing on the same dataset), you can use the following example:
+
 - **MMPD → MMPD**:
 ```bash
 python main.py --config_file ./configs/infer_configs/MMPD_MMPD_Q2FPhys.yaml
@@ -50,11 +55,13 @@ python main.py --config_file ./configs/infer_configs/UBFC_PURE_Q2FPhys.yaml
 ```
 
 
+
 ## 🧮 Computing Model Complexity
 To calculate the model's number of parameters, MACs (multiply–accumulate operations), and throughput:
 ```
 python model_Para_MACs_Thro.py
 ```
+
 
 
 ## 🎓 Acknowledgement
