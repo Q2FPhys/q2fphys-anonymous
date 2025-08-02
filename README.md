@@ -9,9 +9,7 @@ To set up the environment for Q2F-Phys, please execute the following script:
 ```bash
 bash setup.sh
 ```
-This will automatically create a dedicated conda environment and install all necessary dependencies.  
-The setup script has been tested and verified on Linux systems.  
-If you are using Windows or macOS, manual installation of dependencies may be required.
+This will automatically create a dedicated conda environment and install all necessary dependencies. The setup script has been tested and verified on Linux systems. If you are using Windows or macOS, manual installation of dependencies may be required.
 
 
 
