@@ -11,8 +11,18 @@ bash setup.sh
 
 ## 📁 Datasets
 To run Q2F-Phys, using appropriate datasets is required.
-- **MMPD**
--- Jiankai Tang, Kequan Chen, Yuntao Wang, Yuanchun Shi, Shwetak Patel, Daniel McDuff, Xin Liu, "MMPD: Multi-Domain Mobile Video Physiology Dataset", IEEE EMBC, 2023
+- **MMPD**  
+  - Jiankai Tang, Kequan Chen, Yuntao Wang, Yuanchun Shi, Shwetak Patel, Daniel McDuff, Xin Liu,  
+    *"MMPD: Multi-Domain Mobile Video Physiology Dataset"*, IEEE EMBC, 2023.
+
+- **UBFC-rPPG**  
+  - S. Bobbia, R. Macwan, Y. Benezeth, A. Mansouri, J. Dubois,  
+    *"Unsupervised skin tissue segmentation for remote photoplethysmography"*, Pattern Recognition Letters, 2017.
+
+- **PURE**  
+  - R. Stricker, S. Müller, H.-M. Gross,  
+    *"Non-contact Video-based Pulse Rate Measurement on a Mobile Service Robot"*,  
+    Proc. IEEE Int. Symposium on Robot and Human Interactive Communication (RO-MAN), 2014.
 
 ## 🖥️ Testing with Pre-trained Models
 Please refer to the configuration files located in `./configs/infer_configs`.
