@@ -10,7 +10,8 @@ bash setup.sh
 ```
 
 ## 📁 Datasets
-To run Q2F-Phys, using appropriate datasets is required.
+To use Q2F-Phys, it is necessary to prepare appropriate benchmark datasets.
+Please refer to the following publications for details on each dataset.
 - **MMPD**  
   - Jiankai Tang, Kequan Chen, Yuntao Wang, Yuanchun Shi, Shwetak Patel, Daniel McDuff, Xin Liu,  
     *"MMPD: Multi-Domain Mobile Video Physiology Dataset"*, IEEE EMBC, 2023.
